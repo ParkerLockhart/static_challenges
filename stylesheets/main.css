@@ -1,0 +1,70 @@
+body {
+  font-family:arial;
+  box-sizing:border-box;
+}
+
+nav {
+  text-align: right;
+  background-color:#4d4d4d;
+  color:white;
+}
+
+table {
+  background-color:red;
+  color:white;
+  width:100%;
+}
+
+#titleBlock {
+  text-align:left;
+  font-size:150%;
+}
+
+td {
+  padding: 16px;
+}
+
+li {
+  display:inline-block;
+  text-align:center;
+  padding:10px;
+}
+
+.container {
+  display:table;
+  background-color: white;
+  color: black;
+}
+.container.right {
+  float:right;
+  width:25%;
+}
+
+.container.middle {
+  float:left;
+  width:75%;
+}
+
+div.feat img {
+  height:75%;
+  width:75%;
+}
+
+div.title {
+  font-size:150%;
+}
+
+div.gallery img {
+  height:35%;
+  width:35%;
+}
+
+div.desc {
+  text-align:center;
+}
+
+footer {
+  width:100%;
+  background-color:#4d4d4d;
+  color:white;
+}
